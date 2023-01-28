@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Help Page</title>
+    <style>
+      /*
+
+        - ID selector #caja
+        <div id="caja"></div>
+
+        - Class selector .bolsa
+        <div class="bolsa"></div>
+
+        - Element selector div
+        <div></div>
+
+        - Attribute selector [title="nombre"]
+        <div title="nombre"></div>
+
+        */
+
+      .header {
+        background-color: black;
+        color: white;
+
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+      }
+
+      .search-section {
+        background-color: blueviolet;
+
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+
+      .search-section__container {
+        width: 728px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .search-section__input {
+        width: 100%;
+      }
+
+      .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+
+        width: 1024px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+
+        outline: 4px dashed tomato;
+      }
+
+      footer {
+        background-color: #000000;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+
+      .footer__container {
+        color: white;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      Abstract | Help Center
+
+      <div>
+        <button>Submit a request</button>
+        <button>Sign in</button>
+      </div>
+    </div>
+
+    <div class="search-section">
+      <div class="search-section__container">
+        <h1>How can we help?</h1>
+        <input
+          class="search-section__input"
+          placeholder="Search"
+          type="search"
+        />
+      </div>
+    </div>
+
+    <div class="services">
+      <div>
+        <h3>Branches</h3>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <a href="#" target="_blank"> Learn More </a>
+      </div>
+
+      <div>
+        <h3>Manage your account</h3>
+        <p>
+          Lorem Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book.
+        </p>
+        <a href="#" target="_blank"> Learn More </a>
+      </div>
+
+      <div>
+        <h3>Manage organizations, teams, and projects</h3>
+        <p>
+          It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged.
+        </p>
+        <a href="#" target="_blank"> Learn More </a>
+      </div>
+
+      <div>
+        <h3>Manage billing</h3>
+        <p>
+          It was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop
+          publishing software like Aldus PageMaker including versions of Lorem
+          Ipsum.
+        </p>
+        <a href="#" target="_blank"> Learn More </a>
+      </div>
+
+      <div>
+        <h3>Authenticate to Abstract</h3>
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text.
+        </p>
+        <a href="#" target="_blank"> Learn More </a>
+      </div>
+
+      <div>
+        <h3>Abstract support</h3>
+        <p>
+          It has roots in a piece of classical Latin literature from 45 BC,
+          making it over 2000 years old.
+        </p>
+        <a href="#" target="_blank"> Learn More </a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer__container">
+        <div>
+          <h4>Abstract</h4>
+          <ul>
+            <li>Branches</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li>blog</li>
+            <li>Help Center</li>
+            <li>Release Notes</li>
+            <li>Status</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Community</h4>
+          <ul>
+            <li>Twitter</li>
+            <li>Linkedin</li>
+            <li>Facebook</li>
+            <li>Dribbble</li>
+            <li>Podcast</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Legal</li>
+          </ul>
+
+          <h5>Contact Us</h5>
+          <ul>
+            <li>info@abstract.com</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <ul>
+      <li>Copyright 2022</li>
+      <li>Abstract Studio Design, Inc.</li>
+      <li>All rights reserved</li>
+    </ul>
+  </body>
+</html>
