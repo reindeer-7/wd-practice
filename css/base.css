@@ -24,8 +24,17 @@
 
 .search-section__button {
   position: absolute;
-  top: 10px;
+  top: 13px;
   right: 10px;
+
+  font-size: 22px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-section__button:hover {
+  color: blue;
 }
 
 .heading-1 {
