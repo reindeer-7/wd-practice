@@ -5,10 +5,10 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto&display=swap');
     </style>
-
     <style>
       body {
         font-family: 'Roboto', sans-serif;
+        margin: 0;
       }
 
       .header {
@@ -19,23 +19,6 @@
         justify-content: space-between;
         padding: 1rem;
         align-items: center;
-      }
-
-      .search-section {
-        background-color: blueviolet;
-
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-      }
-
-      .search-section__container {
-        width: 728px;
-        margin: 0 auto;
-        text-align: center;
-      }
-
-      .search-section__input {
-        width: 100%;
       }
 
       .services {
@@ -94,6 +77,8 @@
         border: 1px solid blue;
       }
     </style>
+
+    <link rel="stylesheet" href="/css/base.css" media="screen">
   </head>
 
   <body>
@@ -108,12 +93,16 @@
 
     <div class="search-section">
       <div class="search-section__container">
-        <h1>How can we help?</h1>
-        <input
-          class="search-section__input"
-          placeholder="Search"
-          type="search"
-        />
+        <h1 class="heading-1">How can we help?</h1>
+        <form class="search-section__form" action="/search" method="get">
+          <input
+            class="search-section__input"
+            placeholder="Search"
+            type="search"
+            name="text"
+          />
+          <button class="search-section__button">Search</button>
+        </form>
       </div>
     </div>
 
