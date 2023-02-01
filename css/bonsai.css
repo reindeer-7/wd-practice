@@ -1,7 +1,24 @@
 /* Henry: Header Section */
 
 /* Lenin: Plans and Pricing Section */
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    /* box-sizing: border-box; */
+}
+.--card-second {
+    border-radius: 16px;
+    display: flex;
+    gap: 2rem;
+    border: 1px solid white; 
+}
 
+.card:hover {
+    /* border-radius: 16px; */
+    background-color: #fbfcff;
+    border: 1px solid #bfc8e5;;
+}
 /* Paul: Cards Section */
 
 /* Yuli: Banner and Accordion Section */
