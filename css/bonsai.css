@@ -1,4 +1,46 @@
 /* Henry: Header Section */
+.header {
+    color: aquamarine;
+
+    width: 1024px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    align-items: center;
+}
+
+.header__text {
+    color: black;
+
+    padding: 1.5rem;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.15rem;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.btn--primary {
+    background-color: #00ffea02;
+    color: rgb(140, 198, 202);
+    border: 2px solid aquamarine;
+    border: 3px solid rgb(150, 226, 220);
+}
+
+.btn--secondary {
+    background-color: aquamarine;
+    color: white;
+    border: 3px solid rgb(150, 226, 220);
+}
 
 /* Lenin: Plans and Pricing Section */
 
