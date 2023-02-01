@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Roboto&display=swap");
+
 body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
 }
+
 /* Henry: Header Section */
 .header {
     color: aquamarine;
@@ -20,6 +22,10 @@ body {
 
 .header__text {
     color: black;
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
 
     padding: 1.5rem;
 }
@@ -55,53 +61,53 @@ body {
 
 /* Yesica: Footer Section */
 footer {
-  background: #f1f6f1;
+    background: #f1f6f1;
 }
 
 .footer {
-  color: #4e4e4e;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  width: 64rem;
+    color: #4e4e4e;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width: 64rem;
 }
 
 .footer h4 {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .footer ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 .footer ul a {
-  color: #4e4e4e;
-  font-size: 0.85rem;
-  text-decoration: none;
-  line-height: 1.5rem;
+    color: #4e4e4e;
+    font-size: 0.85rem;
+    text-decoration: none;
+    line-height: 1.5rem;
 }
 
 .footer ul a:hover {
-  color: #1db87d;
+    color: #1db87d;
 }
 
 .footer__btn {
-  background: transparent;
-  border-color: transparent;
-  cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
 }
 
 .footer__btn i {
-  color: #4e4e4e;
+    color: #4e4e4e;
 }
 
 .footer__btn i:hover {
-  color: #1db87d;
+    color: #1db87d;
 }
 
 .footer__heading-5 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
