@@ -21,20 +21,6 @@
         align-items: center;
       }
 
-      .services {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-
-        width: 1024px;
-
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3rem;
-
-        outline: 4px dashed tomato;
-      }
-
       footer {
         background-color: #000000;
         padding-top: 1rem;
@@ -111,23 +97,34 @@
     </div>
 
     <div class="services">
-      <div>
-        <h3>Branches</h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </p>
-        <a href="#" target="_blank"> Learn More </a>
+
+      <div class="card">
+        <img class="card__image" src="/assets/image-1.png" />
+        <div class="card__content">
+          <h3>Branches</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <a class="card__link" href="#" target="_blank">
+            Learn More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
 
-      <div>
-        <h3>Manage your account</h3>
-        <p>
-          Lorem Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book.
-        </p>
-        <a href="#" target="_blank"> Learn More </a>
+      <div class="card">
+        <img class="card__image" src="/assets/image-1.png" />
+        <div class="card__content">
+          <h3>Manage your account</h3>
+          <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since the
+            1500s, when an <a href="#">unknown</a> printer took a galley of type and scrambled it
+            to make a type specimen book.
+          </p>
+          <a class="card__link" href="#" target="_blank">
+            Learn More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
 
       <div>

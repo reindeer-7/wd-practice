@@ -41,3 +41,50 @@
   font-size: 3.5rem;
   font-weight: 400;
 }
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  width: 1024px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.card p {
+  margin-top: 0;
+}
+
+.card__link {
+  color: blue;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.card__link i {
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+}
+
+.card__link:hover {
+  text-decoration: underline;
+}
+
+.card__image {
+  width: 80px;
+  height: 80px;
+}
