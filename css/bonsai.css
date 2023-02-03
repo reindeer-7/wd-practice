@@ -1,102 +1,117 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Roboto&display=swap");
 
+:root {
+  --bonsai-green: #01b389;
+}
+
 body {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 /* Henry: Header Section */
 .header {
-    color: aquamarine;
-
-    display: flex;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    align-items: center;
+  background-color: #ddd;
 }
 
-.header__text {
-    color: black;
-    display: flex;
-    justify-content: space-between;
+.header__logo {
+  color: aquamarine;
+}
 
-    list-style: none;
+.header__container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}
 
-    padding: 1.5rem;
+.header__navigation {
+  padding: 0.5rem 1.5rem;
+}
+
+.header__navigation ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
 }
 
 .btn {
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    font-size: 1.15rem;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
 }
 
 .btn:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .btn--primary {
-    background-color: #00ffea02;
-    color: rgb(140, 198, 202);
-    border: 2px solid aquamarine;
-    border: 3px solid rgb(150, 226, 220);
+  background-color: #00ffea02;
+  color: var(--bonsai-green);
+  border: 2px solid var(--bonsai-green);
 }
 
 .btn--secondary {
-    background-color: aquamarine;
-    color: white;
-    border: 3px solid rgb(150, 226, 220);
+  background-color: var(--bonsai-green);
+  color: white;
+  border: 2px solid var(--bonsai-green);
 }
 
 /* Lenin: Plans and Pricing Section */
-a {
-	color: #ffffff;
-	text-transform: uppercase;
-	text-decoration: none;
+.card a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-a:hover {
-	color: #01b389;
+.card a:hover {
+  color: #01b389;
 }
+
 .next {
-	width: 277px;
-	height: 47px;
-	border-radius: 3px;
-	text-align: center;
-	border-color: transparent;
-	color: #ffffff;
-	background-color: #01b389;
-	cursor: pointer;
-	padding-top: 10px;
-	align-items: center;
-	margin-left: 2.5rem;
+  display: block;
+  width: 277px;
+  border-radius: 3px;
+  text-align: center;
+  border-color: transparent;
+  color: #ffffff;
+  background-color: #01b389;
+  cursor: pointer;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  margin-left: 2.5rem;
 }
 
 .next:hover {
-	background-color: #e4c95e;
+  background-color: #e4c95e;
 }
 
-i {
-	color: #01b389;
+.card i {
+  color: #01b389;
+  margin-right: 0.5rem;
 }
 
-li {
-	list-style: none;
+.card li {
+  list-style: none;
 }
 
-hr {
-	border: 1.25px solid #01b389;
-	width: 78%;
+.card hr {
+  border: 1.25px solid #01b389;
+  width: 78%;
 }
 
 .box {
-	width: 380px;
-	height: 480px;
-	border-radius: 3px;
-	border: 1px solid rgb(130, 129, 129);
+  width: 380px;
+  height: 480px;
+  border-radius: 3px;
+  border: 1px solid rgb(130, 129, 129);
 }
+
 /* Paul: Cards Section */
 
 /* Yuli: Banner and Accordion Section */
@@ -107,53 +122,53 @@ hr {
 
 /* Yesica: Footer Section */
 footer {
-    background: #f1f6f1;
+  background: #f1f6f1;
 }
 
 .footer {
-    color: #4e4e4e;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    width: 64rem;
+  color: #4e4e4e;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  width: 64rem;
 }
 
 .footer h4 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .footer ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 .footer ul a {
-    color: #4e4e4e;
-    font-size: 0.85rem;
-    text-decoration: none;
-    line-height: 1.5rem;
+  color: #4e4e4e;
+  font-size: 0.85rem;
+  text-decoration: none;
+  line-height: 1.5rem;
 }
 
 .footer ul a:hover {
-    color: #1db87d;
+  color: #1db87d;
 }
 
 .footer__btn {
-    background: transparent;
-    border-color: transparent;
-    cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
 }
 
 .footer__btn i {
-    color: #4e4e4e;
+  color: #4e4e4e;
 }
 
 .footer__btn i:hover {
-    color: #1db87d;
+  color: #1db87d;
 }
 
 .footer__heading-5 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
