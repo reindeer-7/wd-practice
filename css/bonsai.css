@@ -51,7 +51,52 @@ body {
 }
 
 /* Lenin: Plans and Pricing Section */
+a {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
 
+a:hover {
+	color: #01b389;
+}
+.next {
+	width: 277px;
+	height: 47px;
+	border-radius: 3px;
+	text-align: center;
+	border-color: transparent;
+	color: #ffffff;
+	background-color: #01b389;
+	cursor: pointer;
+	padding-top: 10px;
+	align-items: center;
+	margin-left: 2.5rem;
+}
+
+.next:hover {
+	background-color: #e4c95e;
+}
+
+i {
+	color: #01b389;
+}
+
+li {
+	list-style: none;
+}
+
+hr {
+	border: 1.25px solid #01b389;
+	width: 78%;
+}
+
+.box {
+	width: 380px;
+	height: 480px;
+	border-radius: 3px;
+	border: 1px solid rgb(130, 129, 129);
+}
 /* Paul: Cards Section */
 
 /* Yuli: Banner and Accordion Section */
