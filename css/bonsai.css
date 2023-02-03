@@ -9,8 +9,6 @@ body {
 .header {
     color: aquamarine;
 
-    width: 1024px;
-
     display: flex;
 
     margin-left: auto;
