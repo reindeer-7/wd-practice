@@ -1,3 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+.header__actions {
+  display: none;
+}
+
+/** 48rem 768px */
+@media screen and (min-width: 48rem) {
+  .header__actions {
+    display: block;
+  }
+}
+
+/** Search section styles. */
 .search-section {
   background-color: #dbdcf3;
   padding-top: 3rem;
@@ -5,9 +32,35 @@
 }
 
 .search-section__container {
-  width: 728px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 48rem) {
+  .search-section__title {
+    font-size: 2.5rem;
+  }
+}
+
+.search-section__title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 48rem) {
+  .search-section__container {
+    width: 728px;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .search-section__title {
+    font-size: 3.5rem;
+  }
 }
 
 .search-section__form {
@@ -37,10 +90,6 @@
   color: blue;
 }
 
-.heading-1 {
-  font-size: 3.5rem;
-  font-weight: 400;
-}
 
 .services {
   display: grid;
@@ -87,4 +136,46 @@
 .card__image {
   width: 80px;
   height: 80px;
+}
+
+/** Button styles. */
+.btn {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.75;
+}
+
+.btn--secondary {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn--primary {
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+}
+
+
+footer {
+  background-color: #000000;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer__container {
+  color: white;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
 }

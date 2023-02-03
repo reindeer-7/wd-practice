@@ -5,75 +5,16 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto&display=swap');
     </style>
-    <style>
-      body {
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-      }
-
-      .header {
-        background-color: black;
-        color: white;
-
-        display: flex;
-        justify-content: space-between;
-        padding: 1rem;
-        align-items: center;
-      }
-
-      footer {
-        background-color: #000000;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-      }
-
-      .footer__container {
-        color: white;
-
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-
-        width: 1024px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    </style>
-
-    <style>
-      .btn {
-        border-radius: 5px;
-        padding: 0.5rem 1rem;
-        font-size: 1.15rem;
-        cursor: pointer;
-      }
-
-      .btn:hover {
-        opacity: 0.75;
-      }
-
-      .btn--secondary {
-        background-color: black;
-        color: white;
-        border: 1px solid white;
-      }
-
-      .btn--primary {
-        background-color: blue;
-        color: white;
-        border: 1px solid blue;
-      }
-    </style>
-
     <link rel="stylesheet" href="/css/base.css" media="screen">
-
     <script src="https://kit.fontawesome.com/3e291ddc30.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
     <div class="header">
       Abstract | Help Center
 
-      <div>
+      <div class="header__actions">
         <button class="btn btn--secondary">Submit a request</button>
         <button class="btn btn--primary">Sign in</button>
       </div>
@@ -81,7 +22,7 @@
 
     <div class="search-section">
       <div class="search-section__container">
-        <h1 class="heading-1">How can we help?</h1>
+        <h1 class="search-section__title">How can we help?</h1>
         <form class="search-section__form" action="/search" method="get">
           <input
             class="search-section__input"
@@ -127,41 +68,61 @@
         </div>
       </div>
 
-      <div>
-        <h3>Manage organizations, teams, and projects</h3>
-        <p>
-          It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged.
-        </p>
-        <a href="#" target="_blank"> Learn More </a>
+      <div class="card">
+        <img class="card__image" src="/assets/image-1.png" />
+        <div class="card__content">
+          <h3>Manage organizations, teams, and projects</h3>
+          <p>
+            It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.
+          </p>
+          <a class="card__link" href="#" target="_blank">
+            Learn More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
 
-      <div>
-        <h3>Manage billing</h3>
-        <p>
-          It was popularised in the 1960s with the release of Letraset sheets
-          containing Lorem Ipsum passages, and more recently with desktop
-          publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum.
-        </p>
-        <a href="#" target="_blank"> Learn More </a>
+      <div class="card">
+        <img class="card__image" src="/assets/image-1.png" />
+        <div class="card__content">
+          <h3>Manage billing</h3>
+          <p>
+            It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
+          </p>
+          <a class="card__link" href="#" target="_blank">
+            Learn More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
 
-      <div>
-        <h3>Authenticate to Abstract</h3>
-        <p>
-          Contrary to popular belief, Lorem Ipsum is not simply random text.
-        </p>
-        <a href="#" target="_blank"> Learn More </a>
+      <div class="card">
+        <img class="card__image" src="/assets/image-1.png" />
+        <div class="card__content">
+          <h3>Authenticate to Abstract</h3>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+          </p>
+          <a class="card__link" href="#" target="_blank">
+            Learn More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
 
-      <div>
-        <h3>Abstract support</h3>
-        <p>
-          It has roots in a piece of classical Latin literature from 45 BC,
-          making it over 2000 years old.
-        </p>
-        <a href="#" target="_blank"> Learn More </a>
+      <div class="card">
+        <img class="card__image" src="/assets/image-1.png" />
+        <div class="card__content">
+          <h3>Abstract support</h3>
+          <p>
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old.
+          </p>
+          <a class="card__link" href="#" target="_blank">
+            Learn More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
     </div>
 
