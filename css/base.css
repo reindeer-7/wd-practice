@@ -94,25 +94,19 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
   margin-bottom: 2.5rem;
+  margin-top: 2rem;
 }
 
 @media screen and (min-width: 48rem) {
   .services {
     grid-template-columns: 1fr 1fr;
-    width: 90%;
     margin-bottom: 3rem;
   }
 }
 
 @media screen and (min-width: 64rem) {
   .services {
-    width: 1024px;
     margin-bottom: 4rem;
   }
 }
@@ -176,30 +170,10 @@ body {
   border: 1px solid blue;
 }
 
-
 footer {
   background-color: #000000;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.footer__container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-@media screen and (min-width: 48rem) {
-  .footer__container {
-    width: 90%;
-  }
-}
-
-@media screen and (min-width: 64rem) {
-  .footer__container {
-    width: 1024px;
-  }
 }
 
 .footer__menu {
@@ -218,4 +192,24 @@ footer {
   display: flex;
   justify-content: flex-end;
   color: white;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 48rem) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .container {
+    width: 1024px;
+  }
 }
