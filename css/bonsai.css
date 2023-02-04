@@ -115,11 +115,49 @@ body {
 /* Paul: Cards Section */
 
 /* Yuli: Banner and Accordion Section */
-.color{
-    color:#800080;
-
+.yuly_container{
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background:#cce4d2;
+  text-align: center;
+  margin:1rem 15rem 0.03px 15rem;
+  padding: 0.5rem 1.5rem;
+  
 }
 
+span.g_your{
+  color: #b31301;
+  
+}
+.start_free{
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-align:right;
+  display: flex;
+  padding:1em;
+  margin:32px 45px 10px 350px;
+}
+.color{
+  color:#01b389;
+  display: flex;
+  background:white;
+  text-align: center;
+  margin:0.3px 200px 0.3px 500px;
+  }
+
+.yu{
+  color: black;
+  background:white;
+  height: 90px;
+  margin:0.3px 200px 31px 250px;
+  text-align:left;
+  width: 500px;
+  line-height: 1.5rem;
+  }
+ 
 /* Yesica: Footer Section */
 footer {
   background: #f1f6f1;
