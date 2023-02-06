@@ -4,5 +4,8 @@
   },
   "dependencies": {
     "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.3"
   }
 }
