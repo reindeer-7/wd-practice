@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Henry: Header Section */
@@ -19,11 +19,11 @@ body {
 }
 
 .header__container {
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
   width: 1200px;
 }
 
@@ -34,15 +34,15 @@ body {
 .header__navigation ul {
   display: flex;
   justify-content: space-between;
-  list-style: none;
   gap: 1rem;
+  list-style: none;
 }
 
 .btn {
+  cursor: pointer;
   border-radius: 5px;
   padding: 0.5rem 1rem;
   font-size: 0.85rem;
-  cursor: pointer;
 }
 
 .btn:hover {
@@ -50,22 +50,22 @@ body {
 }
 
 .btn--primary {
+  border: 2px solid var(--bonsai-green);
   background-color: #00ffea02;
   color: var(--bonsai-green);
-  border: 2px solid var(--bonsai-green);
 }
 
 .btn--secondary {
+  border: 2px solid var(--bonsai-green);
   background-color: var(--bonsai-green);
   color: white;
-  border: 2px solid var(--bonsai-green);
 }
 
 /* Lenin: Plans and Pricing Section */
 .card a {
   color: #ffffff;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .card a:hover {
@@ -74,17 +74,17 @@ body {
 
 .next {
   display: block;
-  width: 277px;
-  border-radius: 3px;
-  text-align: center;
-  border-color: transparent;
-  color: #ffffff;
-  background-color: #01b389;
+  align-items: center;
   cursor: pointer;
+  margin-left: 2.5rem;
+  border-color: transparent;
+  border-radius: 3px;
+  background-color: #01b389;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  align-items: center;
-  margin-left: 2.5rem;
+  width: 277px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .next:hover {
@@ -92,8 +92,8 @@ body {
 }
 
 .card i {
-  color: #01b389;
   margin-right: 0.5rem;
+  color: #01b389;
 }
 
 .card li {
@@ -106,10 +106,10 @@ body {
 }
 
 .box {
+  border: 1px solid rgb(130, 129, 129);
+  border-radius: 3px;
   width: 380px;
   height: 480px;
-  border-radius: 3px;
-  border: 1px solid rgb(130, 129, 129);
 }
 
 /* Paul: Cards Section */
@@ -117,75 +117,73 @@ body {
 .flex-container {
   display: flex;
   flex-direction: column;
+  margin: 0rem 10rem 0rem 10rem;
   /*justify-content: space-around;*/
   width: 1024px;
-  margin: 0rem 10rem 0rem 10rem;
 }
 
 .flex-item {
   display: flex;
+  justify-content: space-between;
   background: #fff;
   padding: 1rem;
-  justify-content: space-between;
 }
 
 /* Yuli: Banner and Accordion Section */
-.yuly_container{
+.yuly_container {
   display: flex;
   justify-content: space-between;
-  color: black;
-  background:#cce4d2;
-  text-align: center;
-  margin:1rem 15rem 0.03px 15rem;
+  margin: 1rem 15rem 0.03px 15rem;
+  background: #cce4d2;
   padding: 0.5rem 1.5rem;
-  
+  color: black;
+  text-align: center;
 }
 
-span.g_your{
+span.g_your {
   color: #b31301;
-  
 }
-.start_free{
+.start_free {
+  display: flex;
+  cursor: pointer;
+  margin: 32px 45px 10px 350px;
   border-radius: 5px;
   padding: 0.5rem 1rem;
+  padding: 1em;
   font-size: 0.85rem;
-  cursor: pointer;
-  text-align:right;
-  display: flex;
-  padding:1em;
-  margin:32px 45px 10px 350px;
+  text-align: right;
 }
-.color{
-  color:#01b389;
+.color {
   display: flex;
-  background:white;
+  margin: 0.3px 200px 0.3px 500px;
+  background: white;
+  color: #01b389;
   text-align: center;
-  margin:0.3px 200px 0.3px 500px;
-  }
+}
 
-.yu{
-  color: black;
-  background:white;
-  height: 90px;
-  margin:0.3px 200px 31px 250px;
-  text-align:left;
+.yu {
+  margin: 0.3px 200px 31px 250px;
+  background: white;
   width: 500px;
+  height: 90px;
+  color: black;
   line-height: 1.5rem;
-  }
- 
+  text-align: left;
+}
+
 /* Yesica: Footer Section */
 footer {
   background: #f1f6f1;
 }
 
 .footer {
-  color: #4e4e4e;
   display: flex;
   justify-content: space-between;
   margin: auto;
   padding-top: 2rem;
   padding-bottom: 1rem;
   width: 64rem;
+  color: #4e4e4e;
 }
 
 .footer h4 {
@@ -193,15 +191,15 @@ footer {
 }
 
 .footer ul {
-  list-style: none;
   padding-left: 0;
+  list-style: none;
 }
 
 .footer ul a {
   color: #4e4e4e;
   font-size: 0.85rem;
-  text-decoration: none;
   line-height: 1.5rem;
+  text-decoration: none;
 }
 
 .footer ul a:hover {
@@ -209,9 +207,9 @@ footer {
 }
 
 .footer__btn {
-  background: transparent;
-  border-color: transparent;
   cursor: pointer;
+  border-color: transparent;
+  background: transparent;
 }
 
 .footer__btn i {
