@@ -1,0 +1,12 @@
+{
+  "name": "Juan",
+  "age": 25,
+  "location": {
+    "city": "Puno",
+    "country": "Peru"
+  },
+  "pokemons": ["Pikachu", "Charmander"],
+  "hasLicence": true,
+  "isMarried": false,
+  "diseases": null
+}

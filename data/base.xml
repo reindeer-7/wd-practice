@@ -1,0 +1,11 @@
+<person name="Juan" age="25">
+  <location>
+    <city>Puno</city>
+    <country>Peru</country>
+  </location>
+  <pokemons>
+    <pokemon>Pikachu</pokemon>
+    <pokemon>Charmander</pokemon>
+  </pokemons>
+  <has-licence>1</has-licence>
+</person>
