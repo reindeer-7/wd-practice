@@ -112,7 +112,3 @@ const numbers = [100, 80, 120, 30];
 // });
 
 // String.
-
-const button = document.querySelector('button');
-
-button.innerText = "Sumbit";

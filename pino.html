@@ -7,9 +7,65 @@
     <title>Document</title>
   </head>
   <body>
-    <button>Click me</button>
+    <form id="login" method="post">
+      <div>
+        <label>Username</label>
+        <input class="search-text" name="username" type="text">
+      </div>
+      <div>
+        <label>Password</label>
+        <input class="search-text" name="pass" type="password">
+      </div>
 
-    <script src="/js/main.js"></script>
-    <script type="module" src="/js/api.js"></script>
+      <div>
+        <input type="checkbox" name="rename_username">
+        <label>Save my username</label>
+      </div>
+
+      <button type="submit">Sign In</button>
+    </form>
+
+
+
+    <!-- <script src="/js/main.js"></script> -->
+    <!-- <script type="module" src="/js/api.js"></script> -->
+    <script>
+      const btns = document.getElementsByClassName('btn')
+
+      // document.querySelector()
+      // document.querySelectorAll()
+
+      // Events
+      // click, hover, double click, change ...
+
+      // const submitButton = document.querySelector("input[type='password']")
+      // submitButton.addEventListener('click', function () {
+      //   console.log('Click executed!')
+      // });
+
+      // const searchInput = document.querySelector('.search-text');
+      // searchInput.addEventListener('keyup', function (event) {
+      //   console.log(event.key)
+      // });
+
+      // const form = document.querySelector('#login');
+
+      // form.addEventListener('submit', function (event) {
+      //   event.preventDefault();
+      //   const data = new FormData(form);
+      //   const info = {
+      //     username: data.get('username'),
+      //     password: data.get('pass')
+      //   }
+      //   console.log('Submit', info);
+      // })
+
+      const checkbox = document.querySelector("[name='rename_username']");
+
+      checkbox.addEventListener('change', function (event) {
+        console.log(event.target.checked);
+      });
+
+    </script>
   </body>
 </html>
