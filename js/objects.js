@@ -34,3 +34,67 @@ const poke = {
     "hires": "https://raw.githubusercontent.comg"
   }
 };
+
+
+// Yuli: Array with 3 names
+// - Print the second name value.
+
+// Henry: An studen Object with name, age and dni.
+// - Print the age value.
+const student = {
+  name: "Jhoan",
+  age: 12,
+  dni: "70098065"
+};
+
+// student.age
+
+// Paul: Array of number greather than 100
+// - Print the last number value.
+
+const numbers = [101, 340, 900, 502, 230];
+
+console.log("Last value: " + numbers[4]);
+
+// Lenin: A pokemon object with name, id and types.
+// - Print the name value.
+const pokemon = {
+  "id": 1,
+  "name": "Pikachu",
+  "types": ["Ray"]
+};
+
+// Yesi: A currency object with symbol, name and exchange rate.
+// Print the symbol value.
+const currency = {
+  symbol: '$',
+  name: 'USD',
+  exchangeRate: 3.82,
+};
+
+const country = {
+  code: "PE",
+  name: "Peru",
+  cities: [
+    {
+      name: "Puno",
+      region: "South",
+      provinces: ["Chucuito", "El Collao"]
+    },
+    {
+      name: "Piura",
+      region: "North",
+      provinces: ["Zorritos", "Talara"]
+    }
+  ]
+};
+
+// H: The second province of Puno.
+console.log(country.cities[0].provinces[1])
+// L: The region of Piura.
+console.log(country.cities[1].region);
+// Y: The provinces of Puno.
+console.log(country.cities[0].provinces);
+// P: The first province of Piura
+console.log(country.cities[1].provinces[0]);
+// Yu: The region of Puno
