@@ -20,4 +20,30 @@ function getExchange(currencyType, valueToChange) {
   return currencyTypes[currencyType] * valueToChange;
 }
 
-console.log(getExchange("eur", 100));
+function getFee(salary) {
+  const fee = 0.08;
+
+  return fee * salary;
+}
+
+// console.log(getFee(2000));
+
+function getChikenPrice(weight) {
+  const priceChiken = weight * 12.30;
+  return priceChiken;
+}
+
+// console.log(getChikenPrice(1));
+
+function isFlood(city) {
+  const cities = {
+    juliaca: true,
+    puno: false,
+    ilave: false,
+    juli: false
+  }
+
+  return cities[city]
+}
+
+console.log(isFlood('juliaca'));
